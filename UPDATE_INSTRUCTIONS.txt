@@ -1,15 +1,3 @@
-GNPCSO site v2 update
-
-GitHub-ზე ასატვირთად:
-1. გახსენით repository: gnpcso
-2. დააჭირეთ Add file → Upload files
-3. ატვირთეთ ამ ZIP-ში არსებული ყველა ფაილი და assets საქაღალდე.
-4. თუ GitHub გკითხავთ replace/overwrite-ზე, დაეთანხმეთ.
-5. Commit changes.
-6. დაელოდეთ 1–3 წუთს და გახსენით GitHub Pages მისამართი.
-
-განახლება ასწორებს:
-- header-ის ლოგოს გზას;
-- ზედა მენიუს გადაჭედვას;
-- მენიუს მობილურ ვერსიას;
-- ბრენდის ბლოკის ზომებს.
+GNPCSO site v3
+This version references images from the repository root: logo.png, favicon.png, cover.png, logo-cover.png.
+Upload all files from this folder to the root of the GitHub repository and commit changes.
