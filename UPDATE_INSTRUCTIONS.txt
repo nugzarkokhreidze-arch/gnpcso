@@ -1,8 +1,11 @@
-GNPCSO static site v10
-Changes:
-- Reduced vertical whitespace in the homepage hero section.
-- Kept the two-line title and logo without circle/frame.
-- Reduced hero logo size slightly for better balance.
-- Adjusted the first cards overlap to fit the shorter hero.
+GNPCSO v12 — flat bilingual version
 
-Upload all files from this folder to the GitHub repository root, then Commit changes.
+Upload all files from this folder directly into the root of the GitHub repository.
+Do not upload the ZIP file itself.
+Do not upload any folder.
+There is no /en/ folder in this version. English pages are named en-index.html, en-about.html, etc.
+
+Required files include:
+index.html, about.html, manifesto.html, mission.html, values.html, governance.html, membership.html, activities.html, announcements.html, documents.html, media.html, join.html, contact.html,
+en-index.html, en-about.html, en-manifesto.html, en-mission.html, en-values.html, en-governance.html, en-membership.html, en-activities.html, en-announcements.html, en-documents.html, en-media.html, en-join.html, en-contact.html,
+styles.css, script.js, logo.png, logo-white.png, favicon.png, cover.png, logo-cover.png.
