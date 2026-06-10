@@ -1,17 +1,9 @@
-GNPCSO Static Site v5
+GNPCSO static site v9
 
-ამ ვერსიაში ტექსტები გაფართოებულია შემდეგ გვერდებზე:
-- მისია, მიზანი, ამოცანები
-- ჩვენს შესახებ
-- მანიფესტი
-- ღირებულებები
-- მმართველობა
-- წევრობა
-- საქმიანობა
+Changes:
+- Homepage title corrected to two lines: “საქართველოს სამოქალაქო ორგანიზაციების” / “ეროვნული პლატფორმა”.
+- Desktop title first line is kept on one line.
+- Hero title font size reduced for a cleaner look.
+- Circular background behind the hero logo removed; logo appears directly without a frame.
 
-ატვირთვის წესი:
-1. ZIP გახსენით კომპიუტერში.
-2. GitHub repository-ში გახსენით Code -> Add file -> Upload files.
-3. ატვირთეთ ZIP-ის შიგნით არსებული ყველა ფაილი, არა თვითონ ZIP.
-4. დააჭირეთ Commit changes.
-5. დაელოდეთ GitHub Pages-ის განახლებას და გახსენით საიტი Cmd + Shift + R-ით.
+Upload all files inside this folder to GitHub repository root and commit changes.
