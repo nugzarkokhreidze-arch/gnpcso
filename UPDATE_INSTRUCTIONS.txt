@@ -1,3 +1,17 @@
-GNPCSO site v3
-This version references images from the repository root: logo.png, favicon.png, cover.png, logo-cover.png.
-Upload all files from this folder to the root of the GitHub repository and commit changes.
+GNPCSO Static Site v5
+
+ამ ვერსიაში ტექსტები გაფართოებულია შემდეგ გვერდებზე:
+- მისია, მიზანი, ამოცანები
+- ჩვენს შესახებ
+- მანიფესტი
+- ღირებულებები
+- მმართველობა
+- წევრობა
+- საქმიანობა
+
+ატვირთვის წესი:
+1. ZIP გახსენით კომპიუტერში.
+2. GitHub repository-ში გახსენით Code -> Add file -> Upload files.
+3. ატვირთეთ ZIP-ის შიგნით არსებული ყველა ფაილი, არა თვითონ ZIP.
+4. დააჭირეთ Commit changes.
+5. დაელოდეთ GitHub Pages-ის განახლებას და გახსენით საიტი Cmd + Shift + R-ით.
