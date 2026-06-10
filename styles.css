@@ -18,3 +18,21 @@
 
 .full-list{display:grid;gap:14px;margin:24px 0}.info-box{background:#f6f8fb;border:1px solid var(--line);border-radius:18px;padding:24px;margin:22px 0}.two-col{display:grid;grid-template-columns:1fr 1fr;gap:22px}.small-note{font-size:14px;color:var(--muted)}.status-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;margin:20px 0}.status-card{background:#fff;border:1px solid var(--line);border-radius:16px;padding:20px}.status-card h3{margin-top:0}.doc-title{color:var(--blue);font-weight:900}
 @media(max-width:900px){.two-col,.status-grid{grid-template-columns:1fr}}
+
+
+/* v6 refinements: cleaner homepage hero/header */
+.topbar .container{min-height:34px}
+.site-header{box-shadow:0 2px 16px rgba(0,33,74,.06)}
+.brand-row{padding:14px 0 12px}
+.brand img{width:58px;height:58px;border-radius:0;box-shadow:none;object-fit:contain;background:transparent}
+.header-actions{min-width:44px;justify-content:flex-end}
+.hero .container{grid-template-columns:minmax(0,1fr) 390px;gap:58px;min-height:560px;padding:58px 0 66px}
+.hero h1{font-size:clamp(30px,3.25vw,44px);line-height:1.16;max-width:610px;margin-bottom:18px;letter-spacing:-.015em}
+.hero .lead{font-size:20px;margin:0 0 26px;color:#ffffff}
+.hero .formula{display:none}
+.hero-actions{margin-top:4px}
+.hero-mark{display:flex;align-items:center;justify-content:center;min-height:340px;position:relative}
+.hero-mark:before{content:'';position:absolute;width:360px;height:360px;border-radius:50%;background:rgba(255,255,255,.06);filter:blur(2px)}
+.hero-mark img{position:relative;width:min(350px,85%);height:auto;opacity:.96;filter:drop-shadow(0 18px 34px rgba(0,0,0,.18))}
+@media(max-width:1060px){.hero .container{grid-template-columns:1fr;gap:28px;min-height:auto;padding:62px 0 88px}.hero-mark{min-height:220px;justify-content:flex-start}.hero-mark:before{width:260px;height:260px}.hero-mark img{width:260px}.nav{top:116px}}
+@media(max-width:640px){.hero h1{font-size:31px}.hero .lead{font-size:17px}.hero-mark{min-height:180px}.hero-mark img{width:210px}.brand img{width:50px;height:50px}}
