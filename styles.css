@@ -53,3 +53,39 @@
 .hero-mark img{width:min(320px,88%);opacity:.97;filter:drop-shadow(0 16px 30px rgba(0,0,0,.15));}
 @media(max-width:1180px){.hero .container{grid-template-columns:1fr;gap:24px}.hero h1 span:first-child{white-space:normal}.hero-mark{justify-content:flex-start;min-height:200px}.hero-mark img{width:245px}}
 @media(max-width:640px){.hero h1{font-size:28px;}.hero-mark img{width:205px}}
+
+/* v10 compact hero spacing */
+.hero .container{
+  min-height:460px;
+  padding:34px 0 48px;
+  align-items:center;
+}
+.hero h1{
+  margin-bottom:14px;
+}
+.gold-line{
+  margin-bottom:20px;
+}
+.hero .lead{
+  margin-bottom:22px;
+}
+.hero-mark{
+  min-height:250px;
+}
+.hero-mark img{
+  width:min(290px,84%);
+}
+.pill-row{
+  margin-top:-48px;
+}
+@media(max-width:1180px){
+  .hero .container{min-height:auto;padding:42px 0 78px;}
+  .hero-mark{min-height:170px;}
+  .hero-mark img{width:220px;}
+  .pill-row{margin-top:-42px;}
+}
+@media(max-width:640px){
+  .hero .container{padding:38px 0 70px;}
+  .hero-mark{min-height:150px;}
+  .hero-mark img{width:185px;}
+}

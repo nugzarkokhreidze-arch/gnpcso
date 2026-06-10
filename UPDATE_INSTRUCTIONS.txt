@@ -1,9 +1,8 @@
-GNPCSO static site v9
-
+GNPCSO static site v10
 Changes:
-- Homepage title corrected to two lines: “საქართველოს სამოქალაქო ორგანიზაციების” / “ეროვნული პლატფორმა”.
-- Desktop title first line is kept on one line.
-- Hero title font size reduced for a cleaner look.
-- Circular background behind the hero logo removed; logo appears directly without a frame.
+- Reduced vertical whitespace in the homepage hero section.
+- Kept the two-line title and logo without circle/frame.
+- Reduced hero logo size slightly for better balance.
+- Adjusted the first cards overlap to fit the shorter hero.
 
-Upload all files inside this folder to GitHub repository root and commit changes.
+Upload all files from this folder to the GitHub repository root, then Commit changes.
